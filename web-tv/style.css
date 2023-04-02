@@ -1,0 +1,30 @@
+video {
+  width: 100%;
+  height: auto;
+}
+
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+.video-controls {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+}
+
+.video-controls button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.video-controls button:focus {
+  outline: none;
+}
